@@ -1,0 +1,11 @@
+Z:\RAGEMP\server-files\dotnet\resources\RAGErally\Debug\netcoreapp2.0\RAGErally.deps.json
+Z:\RAGEMP\server-files\dotnet\resources\RAGErally\Debug\netcoreapp2.0\RAGErally.dll
+Z:\RAGEMP\server-files\dotnet\resources\RAGErally\Debug\netcoreapp2.0\RAGErally.pdb
+C:\Users\Will\source\repos\RAGErally\obj\Debug\netcoreapp2.0\RAGErally.csproj.AssemblyReference.cache
+C:\Users\Will\source\repos\RAGErally\obj\Debug\netcoreapp2.0\RAGErally.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Will\source\repos\RAGErally\obj\Debug\netcoreapp2.0\RAGErally.AssemblyInfoInputs.cache
+C:\Users\Will\source\repos\RAGErally\obj\Debug\netcoreapp2.0\RAGErally.AssemblyInfo.cs
+C:\Users\Will\source\repos\RAGErally\obj\Debug\netcoreapp2.0\RAGErally.csproj.CoreCompileInputs.cache
+C:\Users\Will\source\repos\RAGErally\obj\Debug\netcoreapp2.0\RAGErally.dll
+C:\Users\Will\source\repos\RAGErally\obj\Debug\netcoreapp2.0\RAGErally.pdb
+Z:\RAGEMP\server-files\dotnet\resources\RAGErally\Debug\netcoreapp2.0\meta.xml

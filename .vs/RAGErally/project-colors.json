@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "13bbd500-ef30-4bd8-988a-6a14b4466982": {
+      "ProjectGuid": "13bbd500-ef30-4bd8-988a-6a14b4466982",
+      "DisplayName": "RAGErally",
+      "ColorIndex": 0
+    },
+    "28684a4b-45a3-4298-a880-6a12f61161ae": {
+      "ProjectGuid": "28684a4b-45a3-4298-a880-6a12f61161ae",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

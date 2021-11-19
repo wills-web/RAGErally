@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <BaseOutputPath>Z:\RAGEMP\server-files\dotnet\resources\RAGErally</BaseOutputPath>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Bootstrapper">
+      <HintPath>Z:\RAGEMP\server-files\dotnet\runtime\Bootstrapper.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Colorful.Console.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="meta.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="prebuild.bat">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="postbuild.bat">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\mini.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\speed.flf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\West Coast Championship by Will_\" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="call Z:\RAGEMP\server-files\dotnet\resources\prebuild.bat" />
+  </Target>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="call Z:\RAGEMP\server-files\dotnet\resources\postbuild.bat Z:\RAGEMP\server-files\dotnet\resources\RAGErally\Debug\netcoreapp3.1\ Z:\RAGEMP\server-files\dotnet\resources\RAGErally" />
+  </Target>
+
+</Project>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 
+	________ _______ ___________________                ____________
+	___  __ \___    |__  ____/___  ____/______________ ____  /___  /_____  __
+	__  /_/ /__  /| |_  / __  __  __/   __  ___/_  __ `/__  / __  / __  / / /
+	_  _, _/ _  ___ |/ /_/ /  _  /___   _  /    / /_/ / _  /  _  /  _  /_/ /
+	/_/ |_|  /_/  |_|\____/   /_____/   /_/     \__,_/  /_/   /_/   _\__, /
+																	/____/
+
+					A rally mini-game script written for RageMP.
+								v0.1a | by Will_
+								   
+	This is the default rally event configuration, "Western Forest Rally".
+	Events consist of multiple stages (Point A to Point B time trials) at
+	various	locations.
+-->
+
+<event>
+	<!-- The meta section of the event config contains information about the event itself. -->
+	<meta>
+		<title>Western Forest Rally</title>
+		<author>Will_</author>
+		<description>Damp bark trails, dusty dirt tracks, and poorly maintained asphalt - the Western Forest Rally covers stages from the Paleto Forest south to Great Chaparral.</description>
+		<participants>-1</participants>
+		<championship>WestCoastChampionship</championship>
+	</meta>
+	
+	<!-- The setting section specifiy some gameplay mechanic switches that are event-specific. -->	
+	<settings>
+		<setting name="ScoringSystem" value="time" default="time" description="Defines the method in which scores are calculated." />
+				<!-- time - A gross time is aggregated and the player with the lowest time at the end wins,
+					 points - A point is awarded for position in individual stages. -->
+		<setting name="EasyJoin" value="false" default="false" description="Determines whether drivers can join an event after the first stage." />
+				<!-- false - In order to take part, drivers must join the event before the first stage starts.
+					 true - Drivers may join the event at any point in the event, enable this setting if you're only bothered about the results of individual stages. -->
+	</settings>
+
+	<!-- The stages section outlines the various stages that this event consists of and the time/weather settings for each stage.  -->
+	<stages>
+		<stage order="1" time="06:30" weather="foggy">stage_PaletoSprint.xml</stage>
+		<stage order="2" time="11:45" weather="extrasunny">stage_RatonLoop</stage>
+		<stage order="3" time="18:40" weather="rain">stage_ChaparralDive</stage>
+	</stages>
+</event>

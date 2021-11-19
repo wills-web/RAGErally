@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<meta>
+	<!-- 
+		________ _______ ___________________                ____________
+		___  __ \___    |__  ____/___  ____/______________ ____  /___  /_____  __
+		__  /_/ /__  /| |_  / __  __  __/   __  ___/_  __ `/__  / __  / __  / / /
+		_  _, _/ _  ___ |/ /_/ /  _  /___   _  /    / /_/ / _  /  _  /  _  /_/ /
+		/_/ |_|  /_/  |_|\____/   /_____/   /_/     \__,_/  /_/   /_/   _\__, /
+																		/____/
+
+					 A rally mini-game script written for RageMP.
+								   v0.1a | by Will_
+								   
+		This is the main script configuration file. The upper portion of this
+		file should not be touched as it dictates some basic settings to make
+		this script work. Below that however (inbetween the <settings></settings>
+		tags), you can find the various global script settings.
+	-->
+	<info 
+		name="RAGErally"
+		description="A rally mini-game script written for RageMP."
+		author="Will_"
+		version="0.1a"
+		type="script"
+		/>
+	<script src="RAGErally.dll" />
+
+	<settings>
+		<setting name="LogLevel" value="1" default="2" description="Sets the verbosity of logging output from the plugin." />		<!-- 0 = Trace, 1 = Debug, 2 = Info, 3 = Warn, 4 = Error, 5 = Fatal -->
+		<setting name="Debug" value="false" default="false" description="Allows for the toggling of a debugging mode. I would advise leaving this off." />		<!-- True, False -->
+	</settings>
+</meta>

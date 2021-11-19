@@ -1,0 +1,1 @@
+RD /Q /S "Z:\RAGEMP\server-files\dotnet\resources\RAGErally\"
